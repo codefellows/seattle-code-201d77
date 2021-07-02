@@ -27,15 +27,13 @@ Assignments are submitted using a professional-grade git-flow. If you haven't do
 
 ## Index of Cheatsheets and Resources
 
-- [new project setup](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup)
+- [new project setup](./project_setup.md)
 - [css everything cheatsheet](https://overapi.com/css)
 - [collection of cheatsheets by overApi](https://overapi.com/)
 - [boolean practice](https://codefellows.github.io/code-201-guide/curriculum/class-03/facilitator/boolean-practice)
-- [javascript structure](https://codefellows.github.io/code-201-guide/curriculum/class-09/facilitator/javascript-practice)
-- [post 201 study guide](https://codefellows.github.io/code-201-guide/curriculum/class-15/facilitator/post-201-study-guide)
 - [git and github basics guide](https://codefellows.github.io/code-201-guide/curriculum/class-02/git-and-github-basics-guide)
-- [css2 cheat sheat](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/css2-cheat-sheet)
-- [css3 cheat sheat](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/css3-cheat-sheet)
-- [html5 reference tags](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/htm-5-reference-tags)
-- [html5 sectioning flow chart](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/html5-sectioning-flowchart)
+- [css2 cheat sheat](./cheat-sheets/css2-cheat-sheet.pdf)
+- [css3 cheat sheat](./cheat-sheets/css3-cheat-sheet.pdf)
+- [html5 reference tags](./cheat-sheets/html5-reference-tags.jpg)
+- [html5 sectioning flow chart](./cheat-sheets/html5-sectioning-flowchart.pdf)
 - [handling merge conflicts](https://codefellows.github.io/code-201-guide/curriculum/class-15/handling-merge-conflicts)
