@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- tells the browser what html version I am going to use -->
+<html>
+  <head>
+    <title>Welcome to code 201</title>
+    <!-- metadata can go here -->
+    <style>
+      li {color: green}
+    </style>
+  </head>
+  <body>
+    <img style="width: 400px; border: 2px solid pink;" src="https://st3.depositphotos.com/6975596/19188/i/1600/depositphotos_191880316-stock-photo-back-to-school-lettering.jpg" alt="welcome back to school chalkboard">
+    <h1 style="color: yellow">Welcome to class</h1>
+    <p>Paragraph tag, this is where we keep text content not used as a header, or a list, etc</p>
+    <ul>
+      <li>computer</li>
+      <li>note book</li>
+      <li>text books</li>
+    </ul>
+    <!-- The last thing in the body is the script, because this allows the rest of our page to load more quickly -->
+    <script>
+      console.log('hello world');
+      // prints the value within the parens to the console (browser in this case)
+      let userName= prompt('What is your name?');
+      console.log('the users name is: ', userName);
+      debugger;
+      let alertReturn= alert('hey, thanks for for visiting my webpage '  + userName);
+      // using concatonation we can combine strings with variables into one string, the default return value on a function in javascript is undefined
+    </script>
+  </body>
+</html>
