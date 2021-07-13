@@ -1,0 +1,39 @@
+body *{
+  /* every element within the body */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: x-large;
+  /* em - relational to the size of an m */
+}
+
+h2 {
+  font-size: larger;
+}
+
+h3 {
+  font-size: large;
+}
+
+img {
+  width: 30%;
+}
+
+header {
+  border: 5px dotted black;
+  margin: 5px;
+  padding: 10px;
+}
+
+section {
+  border: 5px dotted black;
+  margin: 30px 5px;
+  padding: 10px;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
