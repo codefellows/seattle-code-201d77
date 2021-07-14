@@ -66,3 +66,80 @@ for (let i = 0; i < array.length; i++) {
     let currentArrayval = array[i];
   }
 }
+
+
+// lets pretend I am making a list of my favorite movies and I am going to let my user guess one... I will give them 5 guesses... if they get it right: alert with 'you got it right' stop having them guess, if they  get it wrong: give them feedback, let them know they got it wrong and how many guesses they have left. on the last guess if still wrong lets give them the correct answers
+
+// array of movies
+const movieArray = ['goonies', 'usual suspects', 'moana', 'sound of music', 'empire of the sun'];
+
+// prompt user for guess
+// wrap in a while loop - conditions: correct answer and count
+// inner loop is a for loop: just looking through an array
+
+// establish a count for my guesses
+let guesses = 5 // never go below 1
+// set up a flag to indicate the correct answer
+let correctMovie = false;
+
+while (!correctMovie && guesses > 0) {
+  // gets me started into the loop with my present values
+  // prompt user for guess
+  let userGuess = prompt('Can you guess one of my favorite movies? You have ' + guesses + ' attempts left.');
+  let userGuessLower = userGuess.toLowerCase();
+  // chack if user guess matches ANY of the movies
+  for (let i = 0; i < movieArray.length; i++) {
+    // check if userGuess matches each single movie
+    if (userGuessLower === movieArray[i]) {
+      alert('You got one! Amazing!');
+      correctMovie = true;
+      break;
+    }
+  }
+  if (correctMovie) {
+    alert('Great job, here is a list of the other choices ' + movieArray);
+  } 
+  // if they got it wrong and they are on 5-2 we will tell them to try again
+  if (!correctMovie && guesses <= 5 && guesses > 1) {
+    alert('sorry you are incorrect please guess again');
+  } 
+  // if they got it wrong and are on the last guess then we will tell them the answers
+  if (!correctMovie && guesses === 1) {
+    alert('Sorry you are incorrect. Possible options were ' + movieArray);
+  }
+  guesses--; // change that will break the loop
+}
+
+
+
+
+for (let guessCount = 0; guessCount < 5; guessCount++) {
+  // gets me started into the loop with my present values
+  // prompt user for guess
+  let userGuess = prompt('Can you guess one of my favorite movies? You have ' + guesses + ' attempts left.');
+  let userGuessLower = userGuess.toLowerCase();
+  // chack if user guess matches ANY of the movies
+  for (let i = 0; i < movieArray.length; i++) {
+    // check if userGuess matches each single movie
+    if (userGuessLower === movieArray[i]) {
+      alert('You got one! Amazing!');
+      correctMovie = true;
+      break;
+    }
+  }
+  if (correctMovie) {
+    alert('Great job, here is a list of the other choices ' + movieArray);
+    break;
+  } 
+  // if they got it wrong and they are on 5-2 we will tell them to try again
+  if (!correctMovie && guesses <= 5 && guesses > 1) {
+    alert('sorry you are incorrect please guess again');
+  } 
+  // if they got it wrong and are on the last guess then we will tell them the answers
+  if (!correctMovie && guesses === 1) {
+    alert('Sorry you are incorrect. Possible options were ' + movieArray);
+  }
+  guesses--; // change that will break the loop
+}
+
+
