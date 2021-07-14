@@ -1,0 +1,49 @@
+body {
+  box-sizing: border;
+  /* this includes the border in the total size of the element */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+header {
+  border: 5px dotted black;
+  margin: 5px;
+  padding: 10px;
+}
+
+section {
+  border: 5px dotted black;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+footer {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+
+
