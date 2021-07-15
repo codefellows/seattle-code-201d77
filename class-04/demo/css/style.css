@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  /* this includes the margin in the total size of the element */
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  border: 5px dotted black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.funstuff {
+  border: 5px dotted black;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+footer {
+  margin-top: 20px;
+}
