@@ -1,0 +1,48 @@
+/* targeting
+positioning
+responsiveness */
+
+/* anything that applies to the body as a whole*/
+body {
+  background-color: lightgray;
+}
+/* all font styling */
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+/* work top to bottom*/
+
+img {
+  width: 200px;
+}
+
+article {
+  width: 30%;
+  float: left;
+}
+
+article:nth-child(1), article:nth-child(2) {
+  margin-right: 5%;
+}
+
+article img, article h3, article ul {
+  width: 75%;
+  margin: 10px auto 5px auto;
+  display: block;
+}
+
