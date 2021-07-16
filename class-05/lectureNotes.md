@@ -25,3 +25,7 @@ Do your work and save your files then a-c-p to that branch name
 
 To checkout an existing branch
 - `git checkout branch name`
+
+Go to github.com
+- accept or create a pull request for the branch
+- merge the branch
