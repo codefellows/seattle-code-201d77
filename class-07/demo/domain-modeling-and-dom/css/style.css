@@ -1,0 +1,12 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+table * {
+  border: thin solid black;
+  /* border-collapse: collapse; */
+}
+
+table {
+  border-collapse: collapse;
+}
