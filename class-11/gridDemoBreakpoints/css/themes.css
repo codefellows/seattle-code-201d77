@@ -1,0 +1,112 @@
+#A {
+  background-color: #ff9999;
+}
+
+#B {
+  background-color: #ffb399;
+}
+
+#C {
+  background-color: #ffcc99;
+}
+
+#D {
+  background-color: #ffe699;
+}
+
+#E {
+  background-color: #ffff99;
+}
+
+#F {
+  background-color: #e6ff99;
+}
+
+#G {
+  background-color: #ccff99;
+}
+
+#H {
+  background-color: #b3ff99;
+}
+
+#I {
+  background-color: #99ff99;
+}
+
+
+@media only screen and (min-width: 480px) {
+  #A {
+    background-color: #99ffb3;
+  }
+  
+  #B {
+    background-color: #99ffcc;
+  }
+  
+  #C {
+    background-color: #99ffe6;
+  }
+  
+  #D {
+    background-color: #99ffff;
+  }
+  
+  #E {
+    background-color: #99e6ff;
+  }
+  
+  #F {
+    background-color: #99ccff;
+  }
+  
+  #G {
+    background-color: #99b3ff;
+  }
+  
+  #H {
+    background-color: #9999ff;
+  }
+  
+  #I {
+    background-color: #b399ff;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #A {
+    background-color: #c299ff;
+  }
+  
+  #B {
+    background-color: #cc99ff;
+  }
+  
+  #C {
+    background-color: #e699ff;
+  }
+  
+  #D {
+    background-color: #ff99ff;
+  }
+  
+  #E {
+    background-color: #ff99e6;
+  }
+  
+  #F {
+    background-color: #ff99cc;
+  }
+  
+  #G {
+    background-color: #ff99b3;
+  }
+  
+  #H {
+    background-color: #ff9999;
+  }
+  
+  #I {
+    background-color: #ff8c66;
+  }
+}

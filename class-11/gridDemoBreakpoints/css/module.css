@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.large-article {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.small-article {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
