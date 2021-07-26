@@ -1,0 +1,21 @@
+body *{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5ems;
+}
+
+body {
+  width: 480px;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    width: 767px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 960px;
+  }
+}

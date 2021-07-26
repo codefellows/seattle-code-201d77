@@ -1,0 +1,174 @@
+main {
+  display: grid;
+  grid-template-rows: 75px 150px repeat(2, 125px) repeat(4, 250px) 80px;
+  grid-template-columns: 1fr 1fr;
+}
+nav{
+  height: 75px;
+  grid-column: 1 / span 2;
+}
+
+aside {
+  height: 150px;
+  grid-column: 1 / span 2;
+}
+
+.large-article {
+  height: 125px;
+  grid-column: 1 / span 2;
+}
+
+.small-article {
+  height: 250px;
+  width: 240px;
+}
+
+div {
+  grid-column: 1 / span 2;
+  height: 80px;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    width: 760px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-rows: 100px 175px 200px 250px 150px;
+    grid-template-columns: 200px repeat(4, 190);
+  }
+
+  nav {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    height: 100px;
+  }
+
+  aside {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+    height: 175px;
+  }
+  
+  #C {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    height: 200px;
+    width: 380px;
+  }
+
+  #D {
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
+    height: 200px;
+    width: 380px;
+  }
+  
+  #E {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    height: 250px;
+    width: 190px;
+  }
+
+  #F {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    height: 250px;
+    width: 190px;
+  }
+
+  #G {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    height: 250px;
+    width: 190px;
+  }
+
+  #H {
+    grid-column: 5 / 6;
+    grid-row: 4 / 5;
+    height: 250px;
+    width: 190px;
+  }
+  
+  div {
+    grid-column: 2 / 6;
+    grid-row: 5 / 5;
+    height: 150px;
+    width: 760;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  
+  main {
+    display: grid;
+    grid-template-rows: 100px 200px 250px 150px;
+    grid-template-columns: 200px repeat(4, 190);
+  }
+
+  nav {
+    height: 100px;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+  }
+
+  aside {
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+    height: 600px;
+    width: 200px;
+  }
+  
+  #C {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    height: 200px;
+    width: 380px;
+  }
+
+  #D {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    height: 200px;
+    width: 380px;
+  }
+  
+  #E {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    height: 250px;
+    width: 190px;
+  }
+
+  #F {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    height: 250px;
+    width: 190px;
+  }
+
+  #G {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    height: 250px;
+    width: 190px;
+  }
+
+  #H {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    height: 250px;
+    width: 190px;
+  }
+  
+  div {
+    grid-column: 2 / 6;
+    grid-row: 4 / 5;
+    height: 150px;
+    width: 760;
+  }
+}
